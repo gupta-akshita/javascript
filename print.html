@@ -2,9 +2,11 @@
 <html>
 <head>
 	<title>JS learning</title>
+	<script="externalscript.js"></script>
 </head>
 <body>
 	<h1>JS Learning from the Scratch</h1>
+	<h2>first way</h2>
 	<p id="demo">Lets start with the simple programs</p>
 	<input type="button" name="submit" value="submit" onclick="fun()">
 	<script type="text/javascript">
@@ -12,5 +14,20 @@
 			document.getElementById('demo').innerHTML="Hey There!!";
 		}
 	</script>
+	<h2>second way</h2>
+	<p>here we go..</p>
+	<p id="demo1">here</p>
+	<script>
+		document.getElementById('demo1').innerHTML="The paragraph is being changed";
+	</script>
+	
+	<h2>Third way</h2>
+	<p id="demo2">here we go..</p>
+	<button type="button" name="submit" value="submit" onclick="document.getElementById('demo2').innerHTML='The paragraph is being changed'">click me</button>
+	
+	<h2>fourth way</h2>
+	<p id="demo4">add external script</p>
+	<button type="button" value="submit" onclick="fun1()">click me</button>
+
 </body>
 </html>
