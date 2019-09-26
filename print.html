@@ -28,6 +28,23 @@
 	<h2>fourth way</h2>
 	<p id="demo4">add external script</p>
 	<button type="button" value="submit" onclick="fun1()">click me</button>
+	<!--we can display anything with four different ways
+	1)inner.HTML
+	2)document.write
+	3)window.alert
+	4)console.log-->
+	
+	<script>
+		document.write(20-10); //this is a bad practice, do not prefer to use it beacuse 						//it does not work in XHTML, it can not inject at a given 						//point and it will delete your html after executing 						//itself; and so many more disadvantages. 
+					
+	</script>
+	
+	<p id="demo3">hey</p>
+	<script>
+		document.getElementById('demo3').innerHtml="Hello javascript";
+	</script>
+
+	
 
 </body>
 </html>
